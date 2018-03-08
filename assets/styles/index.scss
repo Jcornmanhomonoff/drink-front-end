@@ -7,6 +7,7 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import 'landing-page';
 @import 'create-drinks-section';
 @import 'drink-list-section';
+@import 'responsive';
 
 body{
   color: white;
@@ -21,20 +22,6 @@ h1 {
   border-bottom: 3px solid white;
   padding-bottom: 15px;
   margin-top: 0;
-}
-.drink-list-section {
-  background: url('/drink-front-end/public/wood_texture.jpg') no-repeat center fixed;
-  background-size: cover;
-}
-
-.create-drinks-section {
-  background: url('/drink-front-end/public/cocktails_dreams.png') no-repeat center fixed;
-  background-size: cover;
-}
-
-.landing-page {
-  background: url('/drink-front-end/public/moscow-mule.jpg') no-repeat center fixed;
-  background-size: cover;
 }
 
 .nav-box{
