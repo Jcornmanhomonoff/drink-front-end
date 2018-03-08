@@ -1,0 +1,33 @@
+// VERTICAL CENTER & LARGE BUTTONS
+.nav-strip{
+  // padding-top: 20%;
+  // padding-bottom: 18%;
+  height: 0;
+  .auth-menu {
+    list-style-type: none;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+    padding: 0;
+    // padding: 40px 0;
+    // background: rgba(255,255,255, 0.5);
+    li {
+      // display: inline-block;
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 6em;
+      padding: 0 60px;
+      a{
+        text-decoration: none;
+        color: white;
+        border: 10px solid white;
+        padding: 20px 50px;
+        &:hover {
+          background: rgba(255, 255, 255, 0.3);
+        }
+      }
+    }
+  }
+}

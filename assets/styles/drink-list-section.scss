@@ -1,0 +1,79 @@
+.drink-list-section {
+  background: url('~/public/wood_texture.jpg') no-repeat center center fixed;
+  padding: 70px 0 50px;
+  height: 100vh;
+  h2 {
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 20px 0;
+  }
+  input {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid white;
+    border-radius: 0;
+    box-shadow: none;
+    color: white;
+    font-size: 1.5em;
+    width: 100%;
+    padding: 0px 0px;
+    margin: 10px 0;
+    &:focus {
+      outline: none;
+    }
+  }
+  .cancel {
+    background: $clear-white;
+    color: white;
+    &:hover {
+      background: white !important;
+      color: grey;
+    }
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 30px;
+  }
+}
+
+.drink-content {
+  text-align: center;
+  font-size: 22px;
+  h3 {
+    font-size: 40px;
+  }
+}
+
+.scrollable {
+  overflow-y: scroll;
+  height: 500px;
+  background: $clear-white;
+}
+
+.drink {
+  color: $brown;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px;
+  padding: 15px 0 5px;
+}
+
+.sexy-line {
+  display:block;
+  border:none;
+  color:white;
+  height:3px;
+  background:$brown;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from($brown), to($clear-white));
+}

@@ -1,0 +1,30 @@
+<div class="col-sm-12">
+  <div class="row">
+    <div class="col-sm-12 no-padding">
+      <h2>Cocktail Menu</h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row scrollable">
+          {{#each drinks as |drank|}}
+          <div class="col-sm-12 bottom-border">
+            <div class="drink" id="{{drank.id}}">
+              {{drank.name}}
+            </div>
+            <span class="sexy-line"></span>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+      <div class="col-md-6 drink-content">
+        {{#if drinks}}
+          Please select a drink to see a recipe.
+        {{else}}
+          Please create a drink above
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</div>

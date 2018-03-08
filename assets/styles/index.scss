@@ -1,2 +1,74 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Anton|Josefin+Sans:100,400,700');
+
+@import 'colors';
+@import 'landing-page';
+@import 'create-drinks-section';
+@import 'drink-list-section';
+
+body{
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: lowercase;
+  letter-spacing: 10px;
+  border-bottom: 3px solid white;
+  padding-bottom: 15px;
+  margin-top: 0;
+}
+
+.nav-box{
+  background-color: rgba(0, 0, 0, 1);
+  border: 0;
+}
+
+.content{
+  overflow: scroll;
+}
+
+.get-drank{
+  display: none;
+  background-color: rgba(0, 0, 0, 1);
+  border: 0;
+  color: #fff;
+}
+
+.drink-btn {
+  background: white;
+  border-radius: 0;
+  color: grey;
+  border: 5px solid white;
+  font-size: 20px;
+  padding: 12px 0 8px;
+  width: 100%;
+  margin-top: 40px;
+  text-transform: uppercase;
+  &:hover, &:active, &:focus, &:visited {
+    outline: 0 !important;
+    background: $clear-white !important;
+    border-color: white !important;
+    color: white;
+  }
+}
+
+.no-padding {
+  padding: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+input:-webkit-autofill:visited,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s !important;
+    -webkit-box-shadow: 0 0 0 1000px none inset !important;
+    -webkit-text-fill-color: white !important;
+}

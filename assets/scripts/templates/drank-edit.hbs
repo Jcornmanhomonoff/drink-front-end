@@ -1,0 +1,17 @@
+<form class="update-drink">
+  <input type="text" value="{{drink.name}}" name="drink[name]"></input>
+  <input type="text" value="{{drink.alcohol}}" name="drink[alcohol]"></input>
+  <input type="text" value="{{drink.mixers}}" name="drink[mixers]"></input>
+  <input type="text" value="{{drink.directions}}" name="drink[directions]"></input>
+  <div class="row">
+    <div class="col-sm-6">
+      <button class="submit-edit-drink drink-btn" type="submit">Submit</button>
+    </div>
+    <div class="col-sm-6">
+      <button class="delete-drink drink-btn" data-id="{{drink.id}}">Delete drink</button>
+    </div>
+    <div class="col-sm-12">
+      <button class="cancel drink-btn">Cancel</button>
+    </div>
+  </div>
+</form>
