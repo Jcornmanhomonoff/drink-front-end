@@ -64,6 +64,7 @@ const changePasswordSuccess = (data) => {
   setTimeout(function () {
     $('#change-password button').html('Submit')
   }, 3000)
+  $('#change-password input').val('')
 }
 
 const changePasswordFailure = () => {

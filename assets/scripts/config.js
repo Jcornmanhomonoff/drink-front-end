@@ -2,7 +2,8 @@
 
 const config = {
   apiOrigins: {
-    production: 'http://localhost:4741/'
+    production: 'https://shrouded-ravine-93830.herokuapp.com/',
+    development: 'http://localhost:4741/'
   }
 }
 
