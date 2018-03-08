@@ -9,10 +9,10 @@ const signUp = (success, failure, data) => {
     url: config.apiOrigin + 'sign-up',
     data
   })
-    .done(function () {
+    .then(function () {
       return signIn(success, failure, data)
     })
-    .fail(failure)
+    .catch(failure)
 }
 
 const signOut = (success, failure) => {
@@ -28,13 +28,15 @@ const signOut = (success, failure) => {
 }
 
 const signIn = (success, failure, data) => {
+  console.log('here')
+
   $.ajax({
     method: 'POST',
     url: config.apiOrigin + 'sign-in',
     data: data
   })
-    .done(success)
-    .fail(failure)
+    .then(success)
+    .catch(failure)
 }
 
 const changePassword = (success, failure, data) => {
