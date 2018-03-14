@@ -17,6 +17,8 @@ const events = require('./auth/events')
 
 $(() => {
   events.addHandlers()
+  $('.create-drinks-section').hide()
+  $('.drink-list-section').hide()
   $('#sign-in').hide()
   $('#change-password').hide()
   $('.change-password').hide()

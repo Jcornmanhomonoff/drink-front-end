@@ -36,8 +36,10 @@ const signInSuccess = (data) => {
   console.log(data)
   $('.user-name').text('Welcome ' + data.user.first_name)
   drinkApi.getDrank(getDrankSuccess, failure)
+  $('.create-drinks-section').show()
+  $('.drink-list-section').show()
   // Add scroll animation to make drink section
-  $('html, body').css('overflow-y', 'visible')
+  $('.landing-page').css('overflow-y', 'visible')
   $('html, body').animate({
     scrollTop: $('.create-drinks-section').offset().top
   }, 1000)
