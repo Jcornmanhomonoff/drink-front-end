@@ -3,9 +3,9 @@
     font-size: 3em;
   }
   .landing-page {
-    // background: url('/drink-front-end/public/manhattan.jpg') no-repeat center fixed;
-    // background: url('~/public/manhattan.jpg') no-repeat center fixed;
-    background: #000;
+    background: url('/drink-front-end/public/bloody.jpg') no-repeat center fixed;
+    // background: url('~/public/bloody.jpg') no-repeat center fixed;
+    // background: #000;
     height: 100%;
     padding: 70px 0 50px;
     overflow: auto;
@@ -14,11 +14,7 @@
     font-size: 1.5em;
     padding: 10px 0;
     background: $clear-white;
-    color: $brown;
-    &:hover {
-      background: white;
-      color: $brown;
-    }
+    color: #000;
   }
   #sign-up input, #sign-in input, #change-password input {
     padding: 20px 0px;
@@ -26,9 +22,9 @@
     background: $clear-white;
     padding-left: 5px;
     border: 3px solid white;
-    color: $brown;
+    color: #fff;
     &::placeholder {
-      color: $brown;
+      color: #fff;
     }
   }
   #sign-up button, #sign-in button, #change-password button {
@@ -37,7 +33,7 @@
   }
   .active.open-sign-up, .active.open-sign-in, .active.change-password {
     background: white;
-    color: $brown;
+    color: #000;
   }
   .create-drinks-section {
     // background: url('/drink-front-end/public/burlap.jpg')
