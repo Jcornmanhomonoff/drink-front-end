@@ -1,10 +1,10 @@
 .landing-page {
-  // background: url('/drink-front-end/public/moscow-mule.jpg') no-repeat center fixed;
+  background: url('/drink-front-end/public/moscow-mule.jpg') no-repeat center fixed;
   // background: url('~/public/moscow-mule.jpg') no-repeat center fixed;
-  // background-size: cover;
-  // height: 100vh;
-  background: black;
+  background-size: cover;
+  height: 100vh;
   padding-top: 70px;
+  overflow: hidden;
 }
 
 .landing-copy{
