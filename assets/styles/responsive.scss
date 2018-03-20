@@ -36,10 +36,14 @@
     color: #000;
   }
   .create-drinks-section {
-    // background: url('/drink-front-end/public/burlap.jpg')
-    background: url('/public/burlap.jpg')
+    background: url('/drink-front-end/public/burlap.jpg');
+    // background: url('/public/burlap.jpg');
+    height: 100%;
   }
   #create-drink {
     color: $brown;
+  }
+  .drink-list-section {
+    height: 100%;
   }
 }
