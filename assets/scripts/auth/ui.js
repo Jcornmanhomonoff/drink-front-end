@@ -39,7 +39,6 @@ const signInSuccess = (data) => {
   $('.create-drinks-section').show()
   $('.drink-list-section').show()
   // Add scroll animation to make drink section
-  $('.landing-page').css('overflow-y', 'visible')
   $('html, body').animate({
     scrollTop: $('.create-drinks-section').offset().top
   }, 1000)
@@ -96,7 +95,6 @@ const signOutSuccess = () => {
   $('#sign-in input').val('')
   $('#sign-up input').val('')
   $('#create-drink input').val('')
-  $('html').css('overflow-y', 'hidden')
 }
 
 const newDrinkSuccess = (data) => {
